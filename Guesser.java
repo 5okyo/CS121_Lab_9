@@ -26,7 +26,7 @@ public class Guesser {
     private static void humanGuesser() {
         System.out.println("human guesser");
         int secret = new Random().nextInt(MAX - MIN + 1) + MIN;
-        System.out.println(secret);
+       
 
         int tries = 0;
         while (true) {
@@ -98,4 +98,4 @@ public class Guesser {
             System.out.println("Invalid input. Enter a number from " + min + " to " + max + ".");
         }
     }
-}}
+}
